@@ -1,0 +1,54 @@
+2020-07-05 00:33:10.051  INFO 11644 --- [http-nio-8080-exec-4] com.zrm.aspect.LogAspect                 : Request:RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zrm.web.IndexController.index', args=[]}
+2020-07-05 00:33:10.078  INFO 11644 --- [http-nio-8080-exec-4] com.zrm.aspect.LogAspect                 : --------doAfter----------
+2020-07-05 00:33:10.078  INFO 11644 --- [http-nio-8080-exec-4] com.zrm.aspect.LogAspect                 : Result: {}index
+2020-07-05 00:39:53.521  INFO 11644 --- [http-nio-8080-exec-1] com.zrm.aspect.LogAspect                 : Request:RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zrm.web.IndexController.index', args=[]}
+2020-07-05 00:39:53.523  INFO 11644 --- [http-nio-8080-exec-1] com.zrm.aspect.LogAspect                 : --------doAfter----------
+2020-07-05 00:39:53.523  INFO 11644 --- [http-nio-8080-exec-1] com.zrm.aspect.LogAspect                 : Result: {}index
+2020-07-05 03:28:56.761  INFO 31680 --- [restartedMain] com.zrm.BlogApplication                  : Starting BlogApplication on DESKTOP-VNSSJE2 with PID 31680 (D:\ideaworkspace\blog\target\classes started by Administrator in D:\ideaworkspace\blog)
+2020-07-05 03:28:56.762  INFO 31680 --- [restartedMain] com.zrm.BlogApplication                  : The following profiles are active: dev
+2020-07-05 03:28:56.978  INFO 31680 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65dd780c: startup date [Sun Jul 05 03:28:56 BST 2020]; root of context hierarchy
+2020-07-05 03:28:59.163  INFO 31680 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-07-05 03:28:59.181  INFO 31680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-05 03:28:59.182  INFO 31680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2020-07-05 03:28:59.397  INFO 31680 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-05 03:28:59.398  INFO 31680 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2420 ms
+2020-07-05 03:28:59.621  INFO 31680 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-07-05 03:28:59.626  INFO 31680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-05 03:28:59.627  INFO 31680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-05 03:28:59.627  INFO 31680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-07-05 03:28:59.627  INFO 31680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-05 03:29:00.311  INFO 31680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-07-05 03:29:00.328  INFO 31680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-05 03:29:00.546  INFO 31680 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2020-07-05 03:29:00.549  INFO 31680 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-07-05 03:29:00.551  INFO 31680 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-07-05 03:29:00.609  INFO 31680 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-07-05 03:29:00.801  INFO 31680 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-05 03:29:01.482  INFO 31680 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2020-07-05 03:29:01.498  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_blog
+2020-07-05 03:29:01.499  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_blog
+2020-07-05 03:29:01.516  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_blog_tags
+2020-07-05 03:29:01.517  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_blog_tags
+2020-07-05 03:29:01.527  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_comment
+2020-07-05 03:29:01.528  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_comment
+2020-07-05 03:29:01.538  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_tag
+2020-07-05 03:29:01.539  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_tag
+2020-07-05 03:29:01.549  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_type
+2020-07-05 03:29:01.550  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_type
+2020-07-05 03:29:01.559  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_user
+2020-07-05 03:29:01.560  INFO 31680 --- [restartedMain] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: t_user
+2020-07-05 03:29:01.724  INFO 31680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-05 03:29:02.186  INFO 31680 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65dd780c: startup date [Sun Jul 05 03:28:56 BST 2020]; root of context hierarchy
+2020-07-05 03:29:02.302  INFO 31680 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.zrm.web.IndexController.index()
+2020-07-05 03:29:02.306  INFO 31680 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-05 03:29:02.306  INFO 31680 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-05 03:29:02.366  INFO 31680 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-05 03:29:02.366  INFO 31680 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-05 03:29:02.391  INFO 31680 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHander
+2020-07-05 03:29:02.423  INFO 31680 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-07-05 03:29:03.126  INFO 31680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-05 03:29:03.177  INFO 31680 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-07-05 03:29:03.240  INFO 31680 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-07-05 03:29:03.245  INFO 31680 --- [restartedMain] com.zrm.BlogApplication                  : Started BlogApplication in 7.069 seconds (JVM running for 8.634)
